@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+
+    "target": "ES6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS",                                /* Specify what module code is generated. */
+    "lib": ["DOM", "ES6", "ESNext.AsyncIterable"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "./dist",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "moduleResolution": "Node",                     /* Specify how TypeScript looks up a file from a given module specifier. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+    "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
+    "strictPropertyInitialization": false,             /* Check for class properties that are declared but not set in the constructor. */  
+  }
+}
